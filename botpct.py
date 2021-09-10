@@ -105,7 +105,7 @@ def exploit(url):
 try:
         list = sys.argv[1]
 except:
-        print "\033[31;1m"+banner+"\033[0m"
+        print "\033[311m"+banner+"\033[0m"
         print("\n\n# How To use? Check My Youtube Channel Tzb1 (Sorry Updating This Not work i will updating this tools)")
         exit()
 asu = open(list).read().splitlines()
